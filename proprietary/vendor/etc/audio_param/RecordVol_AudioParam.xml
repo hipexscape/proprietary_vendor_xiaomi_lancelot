@@ -56,13 +56,14 @@
     <Param path="AAudio,USB" param_id="1"/>
     <Param path="AAudio,HS5POLE" param_id="0"/>
     <Param path="AAudio,HS5POLE_ANC" param_id="0"/>
-    <Param path="Default,Sound recording,Handset" param_id="5"/>
-    <Param path="Default,Camera recording,Headset" param_id="6"/>
-    <Param path="Default,Camera recording,Handset" param_id="7"/>
-    <Param path="Default,VR,Headset" param_id="8"/>
-    <Param path="Default,VR,Handset" param_id="9"/>
-    <Param path="Default,FastRecord,Headset" param_id="10"/>
-    <Param path="Default,FastRecord,Handset" param_id="11"/>
+    <Param path="Default,VR,Headset" param_id="5"/>
+    <Param path="Default,VR,Handset" param_id="6"/>
+    <Param path="Default,Sound recording,Handset" param_id="7"/>
+    <Param path="Default,FastRecord,Headset" param_id="8"/>
+    <Param path="Default,FastRecord,USB" param_id="9"/>
+    <Param path="Default,Camera recording,Headset" param_id="10"/>
+    <Param path="Default,Camera recording,Handset" param_id="11"/>
+    <Param path="Default,FastRecord,Handset" param_id="12"/>
   </ParamTree>
   <ParamUnitPool>
     <ParamUnit param_id="0">
@@ -84,21 +85,24 @@
       <Param name="ul_gain" value="31"/>
     </ParamUnit>
     <ParamUnit param_id="6">
-      <Param name="ul_gain" value="34"/>
+      <Param name="ul_gain" value="31"/>
     </ParamUnit>
     <ParamUnit param_id="7">
-      <Param name="ul_gain" value="29"/>
+      <Param name="ul_gain" value="31"/>
     </ParamUnit>
     <ParamUnit param_id="8">
       <Param name="ul_gain" value="32"/>
     </ParamUnit>
     <ParamUnit param_id="9">
-      <Param name="ul_gain" value="30"/>
+      <Param name="ul_gain" value="0"/>
     </ParamUnit>
     <ParamUnit param_id="10">
-      <Param name="ul_gain" value="32"/>
+      <Param name="ul_gain" value="34"/>
     </ParamUnit>
     <ParamUnit param_id="11">
+      <Param name="ul_gain" value="29"/>
+    </ParamUnit>
+    <ParamUnit param_id="12">
       <Param name="ul_gain" value="30"/>
     </ParamUnit>
   </ParamUnitPool>

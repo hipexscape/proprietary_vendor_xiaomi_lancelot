@@ -17,6 +17,8 @@
     <Param path="MT6785" param_id="5"/>
     <Param path="MT6797" param_id="3"/>
     <Param path="MT6799" param_id="0"/>
+    <Param path="MT6885" param_id="4"/>
+    <Param path="MT6893" param_id="4"/>
     <Param path="MT8167" param_id="99"/>
     <Param path="ELBRUS" param_id="0"/>
   </ParamTree>

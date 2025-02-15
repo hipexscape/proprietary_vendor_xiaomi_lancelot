@@ -5,6 +5,7 @@
 			<Category name="Default"/>
 			<Category name="App1"/>
 			<Category name="App2"/>
+			<Category name="HDR_RECORD" feature_option="AUDIO_PMIC_4ADC_SUPPORT"/>
 		</CategoryType>
 		<CategoryType name="Application">
 			<CategoryGroup name="Sound recording">
@@ -17,14 +18,15 @@
 				<Category name="CamRecMeeting" wording="Meeting"/>
 			</CategoryGroup>
 			<Category name="ASR" wording="ASR improvement" />
-			<Category name="VR" wording="Voice recognition &amp; CTS verifier" />
+			<Category name="VR" wording="Voice recognition" />
 			<Category name="VoicePerformance" wording="Voice performance recording" />
 			<Category name="VoiceUnLk" visible="false" />
 			<Category name="Customization2" visible="false" />
 			<Category name="CUSTOMIZATION3"/>
-			<Category name="FastRecord" visible="true"/>
+			<Category name="FastRecord" visible="false"/>
 			<Category name="Unprocessed"/>
 			<Category name="IncallRecord"/>
+			<Category name="KTV" wording="In Ear Monitor"/>
 		</CategoryType>
 		<CategoryType name="Profile" wording="Device">
 			<Category name="Handset"/>
